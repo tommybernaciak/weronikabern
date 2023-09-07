@@ -1,6 +1,6 @@
-import { Crimson_Pro } from "next/font/google";
+import { Cormorant_Infant } from "next/font/google";
 
-const font = Crimson_Pro({ subsets: ["latin"] });
+const font = Cormorant_Infant({ weight: "400", subsets: ["latin"] });
 
 export default function Footer() {
   return (

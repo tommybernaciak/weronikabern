@@ -1,13 +1,11 @@
-import { Inter } from "next/font/google";
+import { Cormorant_Infant } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Cormorant_Infant({ weight: "500", subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div
-      className={`flex min-h-screen flex-col items-center justify-between p-2 ${inter.className}`}
-    >
-      content
+    <div className={`flex  flex-col items-center ${font.className} `}>
+      Weronika Bern
     </div>
   );
 }
