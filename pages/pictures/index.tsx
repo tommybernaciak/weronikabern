@@ -1,5 +1,5 @@
 import GalleryImage from "@/components/GalleryImage";
-import { photos } from "./utils";
+import { photos } from "../../utils/photos";
 
 export default function Pictures() {
   return (
